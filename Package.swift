@@ -5,7 +5,7 @@ let package = Package(
     name: "apnswift",
     platforms: [
         .macOS(.v12),
-        .iOS(.v15),
+        .iOS(.v14),
     ],
     products: [
         .executable(name: "APNSwiftExample", targets: ["APNSwiftExample"]),
