@@ -8,5 +8,5 @@
 import Foundation
 
 public enum LiveActivityNotificationEvent: String {
-    case update
+    case update, end
 }
